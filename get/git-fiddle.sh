@@ -59,7 +59,7 @@ _fiddle_intro() {
     echo -e "\e[1;32mAdded conditional source line for .fiddle to ~/.bashrc.\e[0m"
 
     # Reload bashrc
-    source ~/.bashrc
+    echo 'Execute: `source .fiddle` to activate fiddle command'
 }
 
 # Call the function to display the introduction message, create the .$USER file, and append git.bash content to .fiddle if not present
