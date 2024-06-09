@@ -437,3 +437,5 @@ _fiddle_completions() {
 }
 
 complete -F _fiddle_completions fiddle
+
+fiddle
