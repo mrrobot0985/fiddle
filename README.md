@@ -14,7 +14,7 @@ This repository includes various fiddles, each serving a unique purpose. Explore
 
 ### Setup
 
-To use any of the fiddles, you can curl the content from the Git repository and insert it into your local `.bashrc` file.
+To use any of the fiddles, you can curl the content from the Git repository and insert it into your local `.fiddle` file.
 
 Example:
 ```bash
