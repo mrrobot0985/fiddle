@@ -48,7 +48,7 @@ _fiddle_intro() {
         touch .fiddle
         echo -e "\e[1;32mA file named .fiddle has been created in the current directory.\e[0m"
         echo -e "\e[1;32mFetching git.bash content and appending to .fiddle...\e[0m"
-        curl -sL https://raw.githubusercontent.com/mrrobot0985/fiddle/main/git.bash >> .fiddle
+        curl -sL https://raw.githubusercontent.com/mrrobot0985/fiddle/main/git.bash > .fiddle
         echo -e "\e[1;32mThe content of git.bash has been appended to .fiddle.\e[0m"
     else
         echo -e "\e[1;32m.git.fiddle already exists, skipping fetch.\e[0m"
