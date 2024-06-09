@@ -19,10 +19,7 @@ To use any of the fiddles, you can curl the content from the Git repository and 
 Example:
 ```bash
 # Curl the content of a specific fiddle and append it to your .bashrc file
-curl -sL https://raw.githubusercontent.com/mrrobot0985/fiddle/main/git.bash | -
-
-# Reload your shell configuration
-source .bashrc
+curl -sL https://raw.githubusercontent.com/mrrobot0985/fiddle/main/get/git-fiddle.sh | sh
 ```
 
 ## Contributing
